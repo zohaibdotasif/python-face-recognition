@@ -11,8 +11,8 @@ videoCapture = cv2.VideoCapture(0)
 time.sleep(1)
 
 # load images
-face1 = fr.load_image_file("faces/face1.jpg")
-face2 = fr.load_image_file("faces/face2.jpg")
+face1 = fr.load_image_file("face1.jpg")
+face2 = fr.load_image_file("face2.jpg")
 
 # encode images
 face1Encoding = fr.face_encodings(face1)[0]
